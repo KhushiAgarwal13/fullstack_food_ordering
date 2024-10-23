@@ -1,0 +1,23 @@
+after creating the backend folder , we'll open the terminal in the backend
+
+now we'll install all the dependencies 
+change the script : "server": "nodemon server.js"
+when we run npm run server , it will will execute
+the server.js file
+
+
+// lets create the folder structure for backend project
+// create a folder - config-- we'll store the configration files
+// like data base configration file
+
+middleware--- we'll store all the middlwares
+controllers --- we'll write the logic for backend
+uploads-- we'll upload all the images uploaded by user
+.env--- we'll store all environment variable
+models - we can store the product in the database
+
+
+Yeh API kaam kya kar rahi hai?
+User se food ka data le rahi hai (naam, price, description, category aur image), aur usko database mein add kar rahi hai.
+Success Response: Agar sab theek se ho gaya, toh API user ko batayegi: "Food Added."
+Error Response: Agar koi error aayi, toh "Error" message return karegi.
